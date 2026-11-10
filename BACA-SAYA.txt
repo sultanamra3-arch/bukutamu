@@ -1,0 +1,14 @@
+BUKU TAMU DIGITAL - PERPUSTAKAAN SMPN 6 KERITANG
+https://bukutamu.otomasismpn6keritang.my.id
+
+Halaman:
+  /             -> Kios check-in (layar di meja depan)
+  /?p=layar     -> Layar statistik untuk TV
+  /?p=rekap     -> Rekap bulanan berkop, siap cetak
+  /?p=keluar    -> Lepas pendaftaran perangkat
+
+Setiap perangkat (tablet kios, PC TV, laptop petugas) memasukkan PIN petugas sekali.
+Ganti PIN di config.php (pin_petugas).
+Data kunjungan disimpan ke tabel SLiMS visitor_count, jadi menu
+Pelaporan > Daftar/Statistik Pengunjung di SLiMS tetap terisi.
+Keperluan kunjungan disimpan di tabel tambahan bukutamu_keperluan.

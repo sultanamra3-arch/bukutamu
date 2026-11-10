@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "id.my.otomasismpn6keritang.siguruadmin",
+    "sha256_cert_fingerprints": ["6B:FF:14:36:70:5A:A1:B9:76:9E:57:E3:FF:83:FA:9A:28:26:82:4B:F6:84:1F:BD:35:F2:20:DF:99:CB:CE:37"]
+  }
+}]
